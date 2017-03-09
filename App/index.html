@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- style sheet -->
+   <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+   <link href="../bower_components/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
+   <link href="styles/mystyles.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav id="relaxHub" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" style="color:cyan;" href="#">
+          <h1 style="margin-top:5px;padding-left:50%;">Basic Calculator <small>by Abarnan</small></p></a>
+        </div>
+      </div>
+   </nav><br/><br/>
+   <div class="container">
+     <div class="row">
+       <div class="col-xs-12 col-md-4 col-md-offset-4">
+         
+       <div id = "calculator" >
+         <div class="row">
+           <div class="col-xs-12 col-md-13">
+             <div id="title" class="text-center">
+               <h4>Basic Calculator <a href="https://www.chaodgeek.wordpress.com"><small>by Abarnan Rajkhowa</small></a></h4>
+             </div>
+           </div>
+
+         <!-- The Display -->
+         <div class="row">
+           <div class=" col xs-10 col-md-10 col-md-offset-1">
+             <div id='entrybox' class='text-right'>
+              <div id='entry'>
+                <p id='answer'>0</p>
+              </div>
+              <div id='history'>
+                <p>0</p>
+              </div>
+            </div>
+
+
+           </div>
+         </div>
+           <!-- key board -->
+         <div class="row">
+           <div class=" col-xs-12 col-md-10 col-md-offset-1">
+             <div id='buttons'>
+
+               <button class='red' value='ac'>AC</button>
+               <button class='red' value='ce'>CE</button>
+               <button value='/'>&divide;</button>
+               <button value='*'>x</button>
+
+               <button value='7'>7</button>
+               <button value='8'>8</button>
+               <button value='9'>9</button>
+               <button value='-'>-</button>
+
+               <button value='4'>4</button>
+               <button value='5'>5</button>
+               <button value='6'>6</button>
+               <button value='+'>+</button>
+
+
+               <button value='1'>1</button>
+               <button value='2'>2</button>
+               <button value='3'>3</button>
+               <button class='invisible'>N</button>
+
+               <button id='zeroButton' value='0'>0</button>
+               <button value='.'>.</button>
+               <button id='equalButton' value='='>=</button>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+
+     </div>
+   </div>
+ </div>
+ <footer>
+
+ </footer>
+
+
+    <!-- Scripts file-->
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="scripts/app.js"></script>
+  </body>
+</html>

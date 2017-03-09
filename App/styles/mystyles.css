@@ -1,0 +1,74 @@
+body {
+  font-family: 'Cursive', sans-serif;
+  background-image: url("images/background.jpg");
+  background-color: #cccccc;
+  background:black url(http://wallpapercave.com/wp/Ed0jK7z.jpg);
+}
+#calculator {
+  height: 410px;
+  width: 300px;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #dfd8d0;
+  border: 2px solid #908b85;
+  border-radius: 5px;
+  box-shadow: 7px 10px 34px 1px rgba(0, 0, 0, 0.68), inset -1px -6px 12px 0.1px #89847e;
+}
+.navbar {
+  background:black;
+  height:100px;
+}
+#entrybox {
+  background-color: #57ba63;
+  height:auto;
+  border : 1px solid black;
+}
+#buttons {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  position: absolute;
+  display: inline-block;
+  width: auto;
+  height: auto;
+  margin-top: 15px;
+  margin-left: 0px;
+}
+
+button {
+  border-radius: 8px;
+  border: none;
+  background-color: #3a3a3a;
+  margin: 0 4px 10px 8px;
+  height: 40px;
+  width: 50px;
+  box-shadow: 0px 3px 0px 0px #222121, inset -1px -3px 10px 1px #515151;
+}
+
+button:active {
+  transform: translate(0px, 2px);
+  box-shadow: none;
+}
+
+#equalButton {
+  position: absolute;
+  margin-left: 12px;
+  margin-top: -50px;
+  height: 90px;
+}
+
+#zeroButton {
+  width: 117px;
+}
+
+
+#topAdjust {
+  margin-top: -52px;
+}
+
+.red {
+  font-size: 14px;
+  background-color: #a72d45;
+  box-shadow: 0px 3px 0px 0px #671c2a;
+}
