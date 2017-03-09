@@ -1,0 +1,24 @@
+{
+  "name": "Calculator Application",
+  "authors": [
+    "Abarnan Rajkhowa"
+  ],
+  "description": "A basic calculator",
+  "main": "index.html",
+  "keywords": [
+    "basic",
+    "calculator"
+  ],
+  "license": "Amity",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
